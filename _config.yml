@@ -22,7 +22,7 @@ avatar_image: /img/profile_picture.JPG
 
 #-------------------------------
 # Contact links
-linkedIn: "https://www.linkedin.com/in/cintiaccampos" # Add your linkedIn handle
+linkedln: "https://linkedln.com/in/cintiaccampos/" # Add your linkedln handle
 github: "https://github.com/sharkgurl"  # Add your github handle
 
 paginate: 6
