@@ -150,6 +150,7 @@ tests = TestKnn()
 tests_to_run = unittest.TestLoader().loadTestsFromModule(tests)
 unittest.TextTestRunner().run(tests_to_run)
 ```
+
 <br>
 
 ### Results <a name="data-understanding-results"></a>
@@ -189,8 +190,9 @@ import matplotlib.pyplot as plt
   - Extract x and y values from the data
   - Define Title and Labels
   - Return x, y, title, x_label, y_label
-    <br>
-    <br>
+
+<br>
+<br>
 
 ```python
 def func():
@@ -218,6 +220,7 @@ def func():
 
     return x, y, title, x_label, y_label
 ```
+
 <br>
 <br>
 
