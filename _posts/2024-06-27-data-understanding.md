@@ -130,8 +130,8 @@ import unittest
 # define the test cases/assertions
 class TestKnn(unittest.TestCase):
     def setUp(self):
-        self.loc = "/Users/cintiacampos/CUBoulder/Data_Mining/pipeline_data/dataset.csv"
-        file = open('/Users/cintiacampos/CUBoulder/Data_Mining/pipeline_data/testing', 'rb')
+        self.loc = "/Data_Mining/pipeline_data/dataset.csv"
+        file = open('/Data_Mining/pipeline_data/testing', 'rb')
         self.data = pickle.load(file)
         file.close()
 
@@ -202,7 +202,7 @@ def func():
     y_label = ''
 
     #load the dataset
-    data = pd.read_csv('/Users/cintiacampos/CUBoulder/Data_Mining/pipeline_data/dataset.csv')
+    data = pd.read_csv('/Data_Mining/pipeline_data/dataset.csv')
 
     # Extract x and y values
     x = data['CO'].tolist()
@@ -228,7 +228,7 @@ def func():
 ```ruby
 from IPython.display import Image, display
 # Display the image with a custom-size
-display(Image(filename='/Users/cintiacampos/CUBoulder/Data_Mining/pipeline_data/week3_data/scatter_plot.png', width=300, height=200))
+display(Image(filename='/Data_Mining/pipeline_data/scatter_plot.png', width=300, height=200))
 ```
 
 ```ruby
