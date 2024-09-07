@@ -25,7 +25,7 @@ By importing *unittest*, I will show you how to create test cases and ensure you
 
 ---
 
-# Data Understanding Overview <a name="data-understanding-overview"></a>
+# Part I. Data Understanding Overview <a name="data-understanding-overview"></a>
 
 ### Context <a name="data-understanding-context"></a>
 
@@ -160,7 +160,7 @@ Tests returned 0 errors and 0 failures, indicating that the functions above were
 
 
 ---
-# Data Visualization Overview <a name="data-visualization-overview"></a>
+# Part II. Data Visualization Overview <a name="data-visualization-overview"></a>
 
 In this part, I will generate a scatter plot and explore the data visually.
 
