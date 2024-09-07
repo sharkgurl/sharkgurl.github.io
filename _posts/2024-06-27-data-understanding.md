@@ -191,8 +191,6 @@ import matplotlib.pyplot as plt
   - Define Title and Labels
   - Return x, y, title, x_label, y_label
 
-<br>
-<br>
 
 ```ruby
 def func():
@@ -221,7 +219,6 @@ def func():
     return x, y, title, x_label, y_label
 ```
 
-<br>
 <br>
 
 ### Results <a name="data-visualization-results"></a>
