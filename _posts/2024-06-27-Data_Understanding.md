@@ -29,7 +29,7 @@ By importing *unittest*, I will show you how to create test cases and ensure you
 
 ### Context <a name="data-understanding-context"></a>
 
-There are 5 steps in Data Mining Pipeline:
+There are five steps in the Data Mining Pipeline process:
 
 - Data understanding
 - Data pre-processing
@@ -46,17 +46,19 @@ I will cover Data Understanding in this post and explore:
 - Data visualization
 - Data similarity
 
-The fisrt function to be defined should return the following attributes for the ith column:
+<br>
 
-- Number of objects
-- The minimum value
-- The maximum value
-- The mean value
-- The standard deviation value
-- The Q1 value
-- The median value
-- The Q3 value
-- The IQR value
+The first function to be defined should return the following attributes for the ith column:
+
+- Number of objects: count()
+- The minimum value: min()
+- The maximum value: max()
+- The mean value: mean()
+- The standard deviation value: std()
+- The Q1 value: quantile(0.25)
+- The median value: median()
+- The Q3 value: quantile(0.75)
+- The IQR value: Q3 - Q1
 
 <br>
 
@@ -73,7 +75,7 @@ import pickle
 from pathlib import Path
 ```
 
-- Define the function to calculate and return statistics on those attributes
+- Define the function and return statistics on selected attributes
 
 ```python
 # define the calculate function
@@ -108,17 +110,19 @@ def calculate(dataFile, col_num):
     return numObj, minValue, maxValue, mean, stdev, Q1, median, Q3, IQR
 ```
 
+<br>
+
 ### Tests <a name="data-understanding-tests"></a>
 
-- Run tests using unittest
-  The _unittest_ library is a built-in Python library used for writing and running tests for your code.
-  It provides a framework to create unit tests, which are small and focused tests designed to check if individual pieves of your code (such as functions and methods) work correctly.
+- Run tests using unittest <br>
+  The *unittest* library is a built-in Python library for writing and running tests on your code.
+  It provides a framework to create unit tests, which are small and focused tests designed to check if individual pieces of your code (such as functions and methods) work correctly.
 
 ```python
 # import required Python packages and libraries
 import unittest
 
-# define the test cases / assertions
+# define the test cases/assertions
 class TestKnn(unittest.TestCase):
     def setUp(self):
         self.loc = "/Users/cintiacampos/CUBoulder/Data_Mining/pipeline_data/dataset.csv"
@@ -160,3 +164,6 @@ Tests returned 0 errors and 0 failures indicating that the functions above were 
 # Data Visualization Overview <a name="data-visualization-overview"></a>
 
 ### Context <a name="data-visualization-context"></a>
+
+
+
