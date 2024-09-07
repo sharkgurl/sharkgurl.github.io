@@ -12,12 +12,12 @@ By importing *unittest*, I will show you how to create test cases and ensure you
 
 # Table of contents
 
-- [00. Data Understanding Overview](#data-understanding-overview)
+- [Part I. Data Understanding Overview](#data-understanding-overview)
   - [Context](#data-understanding-context)
   - [Actions](#data-understanding-actions)
   - [Results](#data-understanding-results)
   - [Tests](#data-understanding-tests)
-- [01. Data Visualization Overview](#data-visualization-overview)
+- [Part II. Data Visualization Overview](#data-visualization-overview)
   - [Context](#data-visualization-context)
   - [Actions](#data-visualization-actions)
   - [Results](#data-visualization-results)
@@ -154,4 +154,9 @@ Tests returned 0 errors and 0 failures indicating that the functions above were 
 
 <unittest.runner.TextTestResult run=1 errors=0 failures=0>
 
+
 ---
+
+# Data Visualization Overview <a name="data-visualization-overview"></a>
+
+### Context <a name="data-visualization-context"></a>
