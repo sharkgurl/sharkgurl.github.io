@@ -113,7 +113,7 @@ def calculate(dataFile, col_num):
 
 Tests returned 0 errors and 0 failures, indicating that the functions above were defined correctly.
 
-<unittest.runner.TextTestResult run=1 errors=0 failures=0>
+unittest.runner.TextTestResult run=1 errors=0 failures=0
 
 <br>
 
