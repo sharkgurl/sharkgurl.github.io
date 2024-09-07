@@ -34,7 +34,8 @@ There are 5 steps in Data Mining Pipeline:
 - Data warehousing
 - Data modeling
 - Pattern evaluation
-  <br>
+
+<br>
 
 I will cover Data Understanding in this post and explore:
 
@@ -143,6 +144,7 @@ tests = TestKnn()
 tests_to_run = unittest.TestLoader().loadTestsFromModule(tests)
 unittest.TextTestRunner().run(tests_to_run)
 ```
+<br>
 
 ### Results <a name="data-understanding-results"></a>
 
@@ -156,10 +158,12 @@ Tests returned 0 errors and 0 failures indicating that the functions above were 
 
 In this part, I will generate a scatter plot and explore the data visually.
 
+<br>
 
 ### Context <a name="data-visualization-context"></a>
 
 placeholder
+<br>
 
 ### Actions <a name="data-visualization-actions"></a>
 
@@ -207,10 +211,12 @@ def func():
 
     return x, y, title, x_label, y_label
 ```
+<br>
 
 ### Results <a name="data-visualization-results"></a>
 
 placeholder
+<br>
 
 ### Tests <a name="data-visualization-tests"></a>
 
