@@ -56,7 +56,6 @@ The fisrt function to be defined should return the following attributes for the 
 - The IQR value
 
 <br>
-<br>
 
 ### Actions <a name="data-understanding-actions"></a>
 
@@ -107,7 +106,6 @@ def calculate(dataFile, col_num):
 ```
 
 <br>
-<be>
 
 ### Tests <a name="data-understanding-tests"></a>
 
@@ -149,7 +147,7 @@ unittest.TextTestRunner().run(tests_to_run)
 ```
 
 <br>
-<br>
+
 
 ### Results <a name="data-understanding-results"></a>
 
@@ -157,8 +155,6 @@ Tests returned 0 errors and 0 failures indicating that the functions above were 
 
 <unittest.runner.TextTestResult run=1 errors=0 failures=0>
 
-<br>
-<br>
 
 ---
 
@@ -168,7 +164,6 @@ In this part, I will generate a scatter plot and explore the data visually.
 
 ### Context <a name="data-visualization-context"></a>
 
-<br>
 <br>
 
 ### Actions <a name="data-visualization-actions"></a>
@@ -220,9 +215,7 @@ def func():
 
 ### Results <a name="data-visualization-results"></a>
 
-[placeholder]
 
-<br>
 <br>
 
 ### Tests <a name="data-visualization-tests"></a>
@@ -232,6 +225,7 @@ from IPython.display import Image, display
 # Display the image with a custom size
 display(Image(filename='/Users/cintiacampos/CUBoulder/Data_Mining/pipeline_data/week3_data/scatter_plot.png', width=300, height=200))
 ```
+
 
 ```python
 # Testing the func() function
