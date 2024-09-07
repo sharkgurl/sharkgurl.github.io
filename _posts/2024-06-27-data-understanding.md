@@ -39,16 +39,13 @@ There are five steps in the Data Mining Pipeline process:
 
 <br>
 
-I will cover Data Understanding in this post and explore:
-
-- Data objects & attributes
-- Data statistics
-- Data visualization
-- Data similarity
+The first step is understanding the kind of data we are working with. 
+We look at the objects in the dataset and the attributes used to describe them and calculate their central tendency and dispersion.
+Attributes may be categorical or numerical. 
 
 <br>
 
-The first function to be defined should return the following attributes for the ith column:
+The first function we define should return the following attributes for the ith column:
 
 - Number of objects: count()
 - The minimum value: min()
@@ -112,6 +109,14 @@ def calculate(dataFile, col_num):
 
 <br>
 
+### Results <a name="data-understanding-results"></a>
+
+Tests returned 0 errors and 0 failures, indicating that the functions above were defined correctly.
+
+<unittest.runner.TextTestResult run=1 errors=0 failures=0>
+
+<br>
+
 ### Tests <a name="data-understanding-tests"></a>
 
 - Run tests using unittest <br>
@@ -150,14 +155,6 @@ tests = TestKnn()
 tests_to_run = unittest.TestLoader().loadTestsFromModule(tests)
 unittest.TextTestRunner().run(tests_to_run)
 ```
-
-<br>
-
-### Results <a name="data-understanding-results"></a>
-
-Tests returned 0 errors and 0 failures, indicating that the functions above were defined correctly.
-
-unittest.runner.TextTestResult run=1 errors=0 failures=0
 
 
 ---
