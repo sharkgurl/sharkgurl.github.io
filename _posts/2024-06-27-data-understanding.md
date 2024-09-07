@@ -66,7 +66,7 @@ The first function to be defined should return the following attributes for the 
 
 - Import the required Python packages & libraries
 
-```python copy
+```ruby copy
 # import required Python packages and libraries
 import argparse
 import pandas as pd
@@ -77,7 +77,7 @@ from pathlib import Path
 
 - Define the function and return statistics on selected attributes
 
-```python copy
+```ruby
 # define the calculate function
 def calculate(dataFile, col_num):
     """
@@ -118,7 +118,7 @@ def calculate(dataFile, col_num):
   The *unittest* library is a built-in Python library for writing and running tests on your code.
   It provides a framework to create unit tests, which are small and focused tests designed to check if individual pieces of your code (such as functions and methods) work correctly.
 
-```python copy
+```ruby
 # import required Python packages and libraries
 import unittest
 
@@ -177,7 +177,7 @@ In this part, I will generate a scatter plot and explore the data visually.
 
 - Import Python packages and libraries
 
-```python copy
+```ruby
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -194,7 +194,7 @@ import matplotlib.pyplot as plt
 <br>
 <br>
 
-```python copy
+```ruby
 def func():
 
     '''
@@ -231,13 +231,13 @@ def func():
 
 ### Tests <a name="data-visualization-tests"></a>
 
-```python copy
+```ruby
 from IPython.display import Image, display
 # Display the image with a custom-size
 display(Image(filename='/Users/cintiacampos/CUBoulder/Data_Mining/pipeline_data/week3_data/scatter_plot.png', width=300, height=200))
 ```
 
-```python copy
+```ruby
 # Testing the func() function
 x, y, title, x_label, y_label = func()
 plt.scatter(x, y)
