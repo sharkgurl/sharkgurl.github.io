@@ -15,7 +15,7 @@ Let's get into it!
 
 First let's start by setting up a variable that will act as the upper limit of numbers we want to search through. We'll start with 20, so we're essentially wanting to find all prime numbers that exist that are equal to or smaller than 20
 
-```python copy
+```ruby
 n = 20
 ```
 
@@ -23,13 +23,13 @@ The smallest true Prime number is 2, so we want to start by creating a list of n
 
 Instead of using a list, we're going to use a set.  The reason for this is that sets have some special functions that will allow us to eliminate non-primes during our search.  You'll see what I mean soon...
 
-```python copy
+```ruby
 number_range = set(range(2, n+1))
 ```
 
 Let's also create a place where we can store any primes we discover.  A list will be perfect for this job
 
-```python copy
+```ruby
 primes_list = []
 ```
 
@@ -39,13 +39,13 @@ So, we have our set of numbers (called number_range to check all integers betwee
 
 There is a method which will remove an element from a list or set and provide that value to us, and that method is called *pop*
 
-```python copy
+```ruby
 print(number_range)
 >>> {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}
 ```
 If we use pop, and assign this to the object called **prime** it will *pop* the first element from the set out of **number_range**, and into **prime**
 
-```python copy
+```ruby
 prime = number_range.pop()
 print(prime)
 >>> 2
@@ -55,7 +55,7 @@ print(number_range)
 
 Now, we know that the very first value in our range is going to be a prime...as there is nothing smaller than it so therefore nothing else could possible divide evenly into it.  As we know it's a prime, let's add it to our list of primes...
 
-```python copy
+```ruby
 primes_list.append(prime)
 print(primes_list)
 >>> [2]
@@ -65,7 +65,7 @@ Now we're going to do a special trick to check our remaining number_range for no
 
 We're going to again use a set rather than a list, because it allows us some special functionality that we'll use soon, which is the magic of this approach.
 
-```python copy
+```ruby
 multiples = set(range(prime*2, n+1, prime))
 ```
 
@@ -77,7 +77,7 @@ Now, the **step** is key here.  We want multiples of our number, so we want to i
 
 Lets have a look at our list of multiples...
 
-```python copy
+```ruby
 print(multiples)
 >>> {4, 6, 8, 10, 12, 14, 16, 18, 20}
 ```
@@ -86,7 +86,7 @@ The next part is the magic I spoke about earlier, we're using the special set fu
 
 Before we apply the **difference_update**, let's look at our two sets.
 
-```python copy
+```ruby
 print(number_range)
 >>> {3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}
 
@@ -98,7 +98,7 @@ print(multiples)
 
 To use this, we put our initial set and then apply the difference update with our multiples
 
-```python copy
+```ruby
 number_range.difference_update(multiples)
 print(number_range)
 >>> {3, 5, 7, 9, 11, 13, 15, 17, 19}
@@ -114,7 +114,7 @@ Here is the code, with a while loop doing the hard work of updated the number li
 
 Let's run it for any primes below 1000...
 
-```python copy
+```ruby
 n = 1000
 
 # number range to be checked
@@ -133,14 +133,14 @@ while number_range:
 
 Let's print the primes_list to have a look at what we found!
 
-```python copy
+```ruby
 print(primes_list)
 >>> [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311, 313, 317, 331, 337, 347, 349, 353, 359, 367, 373, 379, 383, 389, 397, 401, 409, 419, 421, 431, 433, 439, 443, 449, 457, 461, 463, 467, 479, 487, 491, 499, 503, 509, 521, 523, 541, 547, 557, 563, 569, 571, 577, 587, 593, 599, 601, 607, 613, 617, 619, 631, 641, 643, 647, 653, 659, 661, 673, 677, 683, 691, 701, 709, 719, 727, 733, 739, 743, 751, 757, 761, 769, 773, 787, 797, 809, 811, 821, 823, 827, 829, 839, 853, 857, 859, 863, 877, 881, 883, 887, 907, 911, 919, 929, 937, 941, 947, 953, 967, 971, 977, 983, 991, 997]
 ```
 
 Let's now get some interesting stats from our list which we can use to summarise our findings, the number of primes that were found, and the largest prime in the list!
 
-```python copy
+```ruby
 prime_count = len(primes_list)
 largest_prime = max(primes_list)
 print(f"There are {prime_count} prime numbers between 1 and {n}, the largest of which is {largest_prime}")
@@ -151,7 +151,7 @@ Amazing!
 
 The next thing to do would be to put it into a neat function, which you can see below:
 
-```python copy
+```ruby
 def primes_finder(n):
     
     # number range to be checked
@@ -176,7 +176,7 @@ Now we can jut pass the function the upper bound of our search and it will do th
 
 Let's go for something large, say a million...
 
-```python copy
+```ruby
 primes_finder(1000000)
 >>> There are 78498 prime numbers between 1 and 1000000, the largest of which is 999983
 ```
@@ -199,13 +199,13 @@ Even though here, we're just coding up something fun - it is most definitely a u
 
 The simplest solution to force the minimum value to be used is to replace the line...
 
-```python copy
+```ruby
 prime = number_range.pop()
 ```
 
 ...with the lines...
 
-```python copy
+```ruby
 prime = min(sorted(number_range))
 number_range.remove(prime)
 ```
