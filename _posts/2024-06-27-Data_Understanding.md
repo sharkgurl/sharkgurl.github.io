@@ -15,13 +15,13 @@ By importing *unittest*, I will show you how to create test cases and ensure you
 - [Part I. Data Understanding Overview](#data-understanding-overview)
   - [Context](#data-understanding-context)
   - [Actions](#data-understanding-actions)
-  - [Results](#data-understanding-results)
   - [Tests](#data-understanding-tests)
+  - [Results](#data-understanding-results)
 - [Part II. Data Visualization Overview](#data-visualization-overview)
   - [Context](#data-visualization-context)
   - [Actions](#data-visualization-actions)
-  - [Results](#data-visualization-results)
   - [Tests](#data-visualization-tests)
+  - [Results](#data-visualization-results)
 
 ---
 
