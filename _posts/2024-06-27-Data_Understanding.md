@@ -105,8 +105,6 @@ def calculate(dataFile, col_num):
     return numObj, minValue, maxValue, mean, stdev, Q1, median, Q3, IQR
 ```
 
-<br>
-
 ### Tests <a name="data-understanding-tests"></a>
 
 - Run tests using unittest
@@ -146,15 +144,11 @@ tests_to_run = unittest.TestLoader().loadTestsFromModule(tests)
 unittest.TextTestRunner().run(tests_to_run)
 ```
 
-<br>
-
-
 ### Results <a name="data-understanding-results"></a>
 
 Tests returned 0 errors and 0 failures indicating that the functions above were defined correctly.
 
 <unittest.runner.TextTestResult run=1 errors=0 failures=0>
-
 
 ---
 
@@ -162,9 +156,10 @@ Tests returned 0 errors and 0 failures indicating that the functions above were 
 
 In this part, I will generate a scatter plot and explore the data visually.
 
+
 ### Context <a name="data-visualization-context"></a>
 
-<br>
+placeholder
 
 ### Actions <a name="data-visualization-actions"></a>
 
@@ -215,8 +210,7 @@ def func():
 
 ### Results <a name="data-visualization-results"></a>
 
-
-<br>
+placeholder
 
 ### Tests <a name="data-visualization-tests"></a>
 
@@ -235,3 +229,4 @@ plt.title(title)
 plt.xlabel(x_label)
 plt.ylabel(y_label)
 ```
+---
