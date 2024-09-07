@@ -166,7 +166,8 @@ In this part, I will generate a scatter plot and explore the data visually.
 The function should:
 
 <br>
-<br>
+<be>
+
 ### Actions <a name="data-visualization-actions"></a>
 
 - Import Python packages and libraries
@@ -219,7 +220,8 @@ def func():
 [placeholder]
 
 <br>
-<br>
+<be>
+
 ### Tests <a name="data-visualization-tests"></a>
 
 ```python
