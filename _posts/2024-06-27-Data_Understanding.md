@@ -57,6 +57,7 @@ The fisrt function to be defined should return the following attributes for the 
 
 <br>
 <br>
+
 ### Actions <a name="data-understanding-actions"></a>
 
 - Import the required Python packages & libraries
@@ -106,7 +107,8 @@ def calculate(dataFile, col_num):
 ```
 
 <br>
-<br>
+<be>
+
 ### Tests <a name="data-understanding-tests"></a>
 
 - Run tests using unittest
