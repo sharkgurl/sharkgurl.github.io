@@ -158,12 +158,28 @@ Tests returned 0 errors and 0 failures indicating that the functions above were 
 
 <unittest.runner.TextTestResult run=1 errors=0 failures=0>
 
+<br>
 
 ---
 
 # Data Visualization Overview <a name="data-visualization-overview"></a>
 
+<br>
+
 ### Context <a name="data-visualization-context"></a>
 
+<br>
 
+### Actions <a name="data-visualization-actions"></a>
 
+<br>
+
+### Tests <a name="data-visualization-tests"></a>
+
+<br>
+
+### Results <a name="data-visualization-results"></a>
+
+<br>
+
+ 
