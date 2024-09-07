@@ -5,7 +5,7 @@ image: "/posts/data-understanding-img.png"
 tags: [Data Mining Pipeline, Data Understanding, Python, UCBoulder]
 ---
 
-In this post, I’ll walk through a Python function that quickly calculates key statistics for dataset attributes, offering valuable insights into the data. Then, I will build a function to generate a scatter plot using Matplotlib to explore the dataset and uncover further insights visually.
+In this post, I’ll walk through a Python function that quickly calculates key statistics for a specific dataset attribute, offering valuable insights into the data. Then, I will build a function to generate a scatter plot using Matplotlib to explore the dataset and uncover further insights visually.
 By importing *unittest*, I will show you how to create test cases and ensure your functions and methods work properly.
 
 <br>
@@ -72,7 +72,7 @@ import pickle
 from pathlib import Path
 ```
 
-- Define the function and return statistics on selected attributes
+- Define the function and return statistics on selected attributes.
 
 ```ruby
 # define the calculate function
@@ -103,6 +103,17 @@ def calculate(dataFile, col_num):
     Q3 = attre_selection.quantile(0.75)
     IQR = Q3 - Q1
 
+    # Print the results with their respective labels
+    print(f"Count: {numObj}")
+    print(f"Min: {minValue}")
+    print(f"Max: {maxValue}")
+    print(f"Mean: {mean}")
+    print(f"Standard Deviation: {stdev}")
+    print(f"Q1: {Q1}")
+    print(f"Median: {median}")
+    print(f"Q3: {Q3}")
+    print(f"IQR: {IQR}")
+
     #return results
     return numObj, minValue, maxValue, mean, stdev, Q1, median, Q3, IQR
 ```
@@ -111,9 +122,8 @@ def calculate(dataFile, col_num):
 
 ### Results <a name="data-understanding-results"></a>
 
-Tests returned 0 errors and 0 failures, indicating that the functions above were defined correctly.
+When executing this function, 
 
-unittest.runner.TextTestResult run=1 errors=0 failures=0
 
 <br>
 
@@ -156,6 +166,8 @@ tests_to_run = unittest.TestLoader().loadTestsFromModule(tests)
 unittest.TextTestRunner().run(tests_to_run)
 ```
 
+Tests returned 0 errors and 0 failures, indicating that the functions above were defined correctly.
+unittest.runner.TextTestResult run=1 errors=0 failures=0
 
 ---
 # Part II. Data Visualization Overview <a name="data-visualization-overview"></a>
