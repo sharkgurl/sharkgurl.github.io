@@ -5,7 +5,9 @@ image: "/posts/data-understanding-img.png"
 tags: [Data Mining Pipeline, Data Understanding, Python]
 ---
 
-In this post, I’ll walk through a Python function that quickly calculates key statistics for dataset attributes, offering valuable insights into the data. Then, I will build a function to generate a scatter plot using Matplotlib to visually explore the dataset and uncover further insights.
+In this post, I’ll walk through a Python function that quickly calculates key statistics for dataset attributes, offering valuable insights into the data. Then, I will build a function to generate a scatter plot using Matplotlib to explore the dataset and uncover further insights visually.
+By importing *unittest*, I will show you how to create test cases and ensure your functions and methods work properly.
+
 <br>
 
 # Table of contents
@@ -152,87 +154,4 @@ Tests returned 0 errors and 0 failures indicating that the functions above were 
 
 <unittest.runner.TextTestResult run=1 errors=0 failures=0>
 
-
-
-# Data Visualization Overview <a name="data-visualization-overview"></a>
-
-In this part, I will generate a scatter plot and explore the data visually.
-
-<br>
-
-### Context <a name="data-visualization-context"></a>
-
-placeholder
-<br>
-
-### Actions <a name="data-visualization-actions"></a>
-
-- Import Python packages and libraries
-
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-```
-
-- Define the function where:
-  - Initialize an empty list for x and for y
-  - Initialize title, x-label, and y-label as empty strings
-  - Load the dataset
-  - Extract x and y values from the data
-  - Define Title and Labels
-  - Return x, y, title, x_label, y_label
-    <br>
-    <br>
-
-```python
-def func():
-
-    '''
-        Output: x, y, title, x-label, y-label
-    '''
-    x = []
-    y = []
-    title = ''
-    x_label = ''
-    y_label = ''
-
-    #load the dataset
-    data = pd.read_csv('/Users/cintiacampos/CUBoulder/Data_Mining/pipeline_data/dataset.csv')
-
-    # Extract x and y values
-    x = data['CO'].tolist()
-    y = data['AFDP'].tolist()
-
-    # Define Titles and Labels
-    title = 'CO vs AFDP'
-    x_label = 'CO'
-    y_label = 'AFDP'
-
-    return x, y, title, x_label, y_label
-```
-<br>
-
-### Results <a name="data-visualization-results"></a>
-
-placeholder
-<br>
-
-### Tests <a name="data-visualization-tests"></a>
-
-```python
-from IPython.display import Image, display
-# Display the image with a custom size
-display(Image(filename='/Users/cintiacampos/CUBoulder/Data_Mining/pipeline_data/week3_data/scatter_plot.png', width=300, height=200))
-```
-
-
-```python
-# Testing the func() function
-x, y, title, x_label, y_label = func()
-plt.scatter(x, y)
-plt.title(title)
-plt.xlabel(x_label)
-plt.ylabel(y_label)
-```
 ---
