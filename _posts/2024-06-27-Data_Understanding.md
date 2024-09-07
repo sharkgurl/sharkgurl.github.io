@@ -163,10 +163,11 @@ Tests returned 0 errors and 0 failures indicating that the functions above were 
 # Data Visualization Overview <a name="data-visualization-overview"></a>
 
 In this part, I will generate a scatter plot and explore the data visually.
-The function should:
+
+### Context <a name="data-visualization-context"></a>
 
 <br>
-<be>
+<br>
 
 ### Actions <a name="data-visualization-actions"></a>
 
@@ -220,7 +221,7 @@ def func():
 [placeholder]
 
 <br>
-<be>
+<br>
 
 ### Tests <a name="data-visualization-tests"></a>
 
@@ -238,6 +239,3 @@ plt.title(title)
 plt.xlabel(x_label)
 plt.ylabel(y_label)
 ```
-
-<br>
-<br>
