@@ -66,7 +66,7 @@ The first function to be defined should return the following attributes for the 
 
 - Import the required Python packages & libraries
 
-```ruby copy
+```ruby
 # import required Python packages and libraries
 import argparse
 import pandas as pd
