@@ -2,7 +2,7 @@
 layout: post
 title: Data Understanding
 image: "/posts/data-understanding-img.png"
-tags: [Data Mining Pipeline, Data Understanding, Python]
+tags: [Data Mining Pipeline, Data Understanding, Python, UCBoulder]
 ---
 
 In this post, I’ll walk through a Python function that quickly calculates key statistics for dataset attributes, offering valuable insights into the data. Then, I will build a function to generate a scatter plot using Matplotlib to explore the dataset and uncover further insights visually.
