@@ -154,15 +154,13 @@ unittest.TextTestRunner().run(tests_to_run)
 
 ### Results <a name="data-understanding-results"></a>
 
-Tests returned 0 errors and 0 failures indicating that the functions above were defined correctly.
+Tests returned 0 errors and 0 failures, indicating that the functions above were defined correctly.
 
 <unittest.runner.TextTestResult run=1 errors=0 failures=0>
+
+
 ---
-
-<br>
-
 # Data Visualization Overview <a name="data-visualization-overview"></a>
-
 
 <br>
 
