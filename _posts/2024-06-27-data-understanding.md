@@ -270,6 +270,7 @@ display(Image(filename='/Data_Mining/pipeline_data/scatter_plot.png', width=300,
 ![Scatterplot](https://github.com/sharkgurl/sharkgurl.github.io/blob/1d86957cdeadc3fd72878d64e09f9f1019f3334d/img/posts/data-understanding-scatterplot-img.png)
 
 
+We can then compare the output of our function and validate the function is working properly.
 
 ```ruby
 # Testing the func() function
