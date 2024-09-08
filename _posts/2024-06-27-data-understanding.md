@@ -193,7 +193,7 @@ unittest.runner.TextTestResult run=1 errors=0 failures=0
 
 Data visualization can be very powerful in assisting in data understanding.
 Data Visualization Methods include boxplots, histograms, scatterplots, quantile plots, heatmaps, etc.
-In this part, I will generate a scatter plot to explore the data visually.
+Let's define a function that helps generate a scatter plot.
 
 <br>
 
