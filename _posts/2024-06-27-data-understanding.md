@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Data Understanding
+title: Writing Python Functions for Data Understanding
 image: "/posts/data-understanding-img.png"
-tags: [Data Mining Pipeline, Data Understanding, Python, UCBoulder]
+tags: [Data Mining Pipeline, Data Understanding, Python, Functions, UCBoulder]
 ---
 
 In this post, I’ll explain two Python functions: one that calculates key statistics for a dataset attribute and another that prepares data for visualization.
