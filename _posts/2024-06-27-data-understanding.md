@@ -141,9 +141,9 @@ When executing this function, various statistics are calculated and returned:
 - minValue: The minimum value in the column.
 - maxValue: the maximum value in the column.
 - mean: The mean/average value of the column.
-- stdev: The standard deviation which measures the amount of variation or dispersion of the values.
+- stdev: The standard deviation measures the amount of variation or dispersion of values.
 - Q1: The first quartile (25th percentile)
-- Median: The 50th percentile representing the middle value of the dataset.
+- Median: The 50th percentile represents the middle value of the dataset.
 - Q3: The 3rd quartile (75th percentile).
 - IQR: The Interquartile Range (Q3-Q1), which measures the spread of the middle 50% of the data.
 
@@ -206,7 +206,7 @@ Let's define a function that helps generate a scatter plot.
 
 ### Context <a name="data-visualization-context"></a>
 
-Having a function to extract the necessary data for plotting can not only simplify the process of gathering and preparing data for visualization but also allow for the reuse of the function without having to rewrite the data extraction and preparation code.
+Having a function to extract the necessary data for plotting can simplify the process of gathering and preparing data for visualization and allow for the reuse of the function without having to rewrite the data extraction and preparation code.
 The function below streamlines the process of creating a plot.
 
 <br>
@@ -275,7 +275,8 @@ from IPython.display import Image, display
 display(Image(filename='/Data_Mining/pipeline_data/scatter_plot.png', width=300, height=200))
 ```
 
-<img src="https://github.com/sharkgurl/sharkgurl.github.io/blob/1d86957cdeadc3fd72878d64e09f9f1019f3334d/img/posts/data-understanding-scatterplot-img.png" alt="Scatterplot" style="max-width: 100%; height: auto;">
+<img src="https://raw.githubusercontent.com/sharkgurl/sharkgurl.github.io/master/img/posts/data-understanding-scatterplot-img.png" alt="Scatterplot" style="max-width: 100%; height: auto;">
+
 
 We can then compare the output of our function and validate the function is working properly.
 
