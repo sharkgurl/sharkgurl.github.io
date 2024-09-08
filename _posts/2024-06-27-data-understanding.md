@@ -49,7 +49,7 @@ Attributes can be categorical or numerical, impacting the statistics you can cal
 
 <br>
 
-The first function we define should return the following attributes for the ith column:
+Let's define a function that returns the following attributes for the ith column:
 
 - Number of objects: count()
 - The minimum value: min()
