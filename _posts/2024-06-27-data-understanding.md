@@ -5,8 +5,9 @@ image: "/posts/data-understanding-img.png"
 tags: [Data Mining Pipeline, Data Understanding, Python, UCBoulder]
 ---
 
-In this post, I’ll walk through a Python function that quickly calculates key statistics for a specific dataset attribute, offering valuable insights into the data. Then, I will build a function to generate a scatter plot using Matplotlib to explore the dataset and uncover further insights visually.
-By importing *unittest*, I will show you how to create test cases and ensure your functions and methods work properly.
+In this post, I’ll explain two different Python functions. The first quickly calculates key statistics for a specific dataset attribute, offering valuable insights into the data. The second gathers and prepares data for visualization.
+
+To test these functions, I use *unittest* to create test cases and ensure these functions and methods work properly.
 
 <br>
 
