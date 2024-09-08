@@ -5,9 +5,9 @@ image: "/posts/data-understanding-img.png"
 tags: [Data Mining Pipeline, Data Understanding, Python, UCBoulder]
 ---
 
-In this post, I’ll explain two different Python functions. The first quickly calculates key statistics for a specific dataset attribute, offering valuable insights into the data. The second gathers and prepares data for visualization.
+In this post, I’ll explain two Python functions: one that calculates key statistics for a dataset attribute and another that prepares data for visualization.
 
-To test these functions, I use *unittest* to create test cases and ensure these functions and methods work properly.
+To ensure these functions work correctly, I will use unittest to create test cases and verify their functionality.
 
 <br>
 
@@ -30,7 +30,7 @@ To test these functions, I use *unittest* to create test cases and ensure these 
 
 ### Context <a name="data-understanding-context"></a>
 
-There are five steps in the Data Mining Pipeline process:
+Understanding the data is the first crucial step in the Data Mining Pipeline process. It involves:
 
 - Data understanding
 - Data pre-processing
@@ -40,9 +40,10 @@ There are five steps in the Data Mining Pipeline process:
 
 <br>
 
-The first step is understanding the kind of data we are working with. 
-We look at the objects in the dataset and the attributes used to describe them and calculate their central tendency and dispersion.
-Attributes may be categorical or numerical. 
+In this step, we analyze the dataset to understand its quantitative objects and attributes, calculating central tendency and dispersion measures.
+Attributes can be categorical or numerical, impacting the statistics you can calculate. 
+- Numerical attributes are quantitative and can be measured on a scale. 
+- Categorical attributes represent categories or groups and are qualitative. Some statistics do not apply to these attributes or are used differently (i.e., number of objects, frequency count, mode, proportions, cross-tabulation).
 
 <br>
 
