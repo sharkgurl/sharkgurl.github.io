@@ -259,11 +259,16 @@ The function returns x, y, title, x_label, y_label values and makes them availab
 
 ### Tests <a name="data-visualization-tests"></a>
 
+By running this cell, we see the scatter plot image based on the function we defined.
+
 ```ruby
 from IPython.display import Image, display
 # Display the image with a custom-size
 display(Image(filename='/Data_Mining/pipeline_data/scatter_plot.png', width=300, height=200))
 ```
+
+
+
 
 ```ruby
 # Testing the func() function
