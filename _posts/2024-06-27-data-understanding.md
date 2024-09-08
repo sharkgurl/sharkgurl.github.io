@@ -195,8 +195,6 @@ unittest.runner.TextTestResult run=1 errors=0 failures=0
 
 ---
 
-<br>
-
 # Part II. Data Visualization Overview <a name="data-visualization-overview"></a>
 
 Data visualization can be very powerful in assisting in data understanding.
