@@ -117,7 +117,7 @@ def calculate(dataFile, col_num):
     return column_name, numObj, minValue, maxValue, mean, stdev, Q1, median, Q3, IQR
 ```
 
-An option is to print the results using a f-string with labels:
+If you wish to print the results using a f-string:
 
 ```ruby
     # Print the results with their respective labels
@@ -190,6 +190,7 @@ unittest.TextTestRunner().run(tests_to_run)
 ```
 
 Tests returned 0 errors and 0 failures, indicating that the functions above were defined correctly.
+
 unittest.runner.TextTestResult run=1 errors=0 failures=0
 
 ---
