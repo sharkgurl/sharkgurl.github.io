@@ -24,13 +24,15 @@ To ensure these functions work correctly, I will use unittest to create test cas
   - [Tests](#data-visualization-tests)
   - [Results](#data-visualization-results)
 
+<br>
+
 ---
 
 # Part I. Data Understanding Overview <a name="data-understanding-overview"></a>
 
 ### Context <a name="data-understanding-context"></a>
 
-Understanding the data is the first crucial step in the Data Mining Pipeline process. It involves:
+Data Mining Pipeline involves:
 
 - Data understanding
 - Data pre-processing
@@ -38,7 +40,7 @@ Understanding the data is the first crucial step in the Data Mining Pipeline pro
 - Data modeling
 - Pattern evaluation
 
-<br>
+The first crucial step in the Data Mining Pipeline process is understanding the data. 
 
 In this step, we analyze the dataset to understand its quantitative objects and attributes, calculating central tendency and dispersion measures.
 Attributes can be categorical or numerical, impacting the statistics you can calculate. 
@@ -191,18 +193,23 @@ Tests returned 0 errors and 0 failures, indicating that the functions above were
 unittest.runner.TextTestResult run=1 errors=0 failures=0
 
 ---
+
+<br>
+
 # Part II. Data Visualization Overview <a name="data-visualization-overview"></a>
 
 Data visualization can be very powerful in assisting in data understanding.
 Data Visualization Methods include boxplots, histograms, scatterplots, quantile plots, heatmaps, etc.
 Let's define a function that helps generate a scatter plot.
 
+<br>
 
 ### Context <a name="data-visualization-context"></a>
 
 Having a function to extract the necessary data for plotting can not only simplify the process of gathering and preparing data for visualization but also allow for the reuse of the function without having to rewrite the data extraction and preparation code.
 The function below streamlines the process of creating a plot.
 
+<br>
 
 ### Actions <a name="data-visualization-actions"></a>
 
@@ -250,11 +257,13 @@ def func():
     return x, y, title, x_label, y_label
 ```
 
+<br>
 
 ### Results <a name="data-visualization-results"></a>
 
 The function returns x, y, title, x_label, y_label values and makes them available for plotting.
 
+<br>
 
 ### Tests <a name="data-visualization-tests"></a>
 
