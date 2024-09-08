@@ -199,7 +199,8 @@ Let's define a function that helps generate a scatter plot.
 
 ### Context <a name="data-visualization-context"></a>
 
-
+Having a function to extract the necessary data for plotting can not only simplify the process of gathering and preparing data for visualization but also allow for the reuse of the function without having to rewrite the data extraction and preparation code.
+The function below streamlines the process of creating a plot.
 
 <br>
 
