@@ -267,7 +267,7 @@ from IPython.display import Image, display
 display(Image(filename='/Data_Mining/pipeline_data/scatter_plot.png', width=300, height=200))
 ```
 
-![Scatterplot](sharkgurl.github.io/img/posts/data-understanding-scatterplot-img.png)
+![Scatterplot]("sharkgurl.github.io/img/posts/data-understanding-scatterplot-img.png")
 
 
 ```ruby
