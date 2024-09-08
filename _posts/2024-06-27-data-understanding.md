@@ -267,7 +267,12 @@ from IPython.display import Image, display
 display(Image(filename='/Data_Mining/pipeline_data/scatter_plot.png', width=300, height=200))
 ```
 
-![Scatterplot](["sharkgurl.github.io/img/posts/data-understanding-scatterplot-img.png"](https://github.com/sharkgurl/sharkgurl.github.io/blob/1d86957cdeadc3fd72878d64e09f9f1019f3334d/img/posts/data-understanding-scatterplot-img.png))
+![Scatterplot](["sharkgurl.github.io/img/posts/data-understanding-scatterplot-img.png"]
+
+"/img/posts/data-understanding-scatterplot-img.png"
+
+![Scatterplot](https://github.com/sharkgurl/sharkgurl.github.io/blob/1d86957cdeadc3fd72878d64e09f9f1019f3334d/img/posts/data-understanding-scatterplot-img.png))
+
 
 
 ```ruby
