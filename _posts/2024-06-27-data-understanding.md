@@ -197,14 +197,12 @@ Data visualization can be very powerful in assisting in data understanding.
 Data Visualization Methods include boxplots, histograms, scatterplots, quantile plots, heatmaps, etc.
 Let's define a function that helps generate a scatter plot.
 
-<br>
 
 ### Context <a name="data-visualization-context"></a>
 
 Having a function to extract the necessary data for plotting can not only simplify the process of gathering and preparing data for visualization but also allow for the reuse of the function without having to rewrite the data extraction and preparation code.
 The function below streamlines the process of creating a plot.
 
-<br>
 
 ### Actions <a name="data-visualization-actions"></a>
 
@@ -252,14 +250,11 @@ def func():
     return x, y, title, x_label, y_label
 ```
 
-<br>
 
 ### Results <a name="data-visualization-results"></a>
 
 The function returns x, y, title, x_label, y_label values and makes them available for plotting.
 
-
-<br>
 
 ### Tests <a name="data-visualization-tests"></a>
 
