@@ -191,15 +191,16 @@ unittest.runner.TextTestResult run=1 errors=0 failures=0
 ---
 # Part II. Data Visualization Overview <a name="data-visualization-overview"></a>
 
-In this part, I will generate a scatter plot and explore the data visually.
-Data visualization can be very powerful in assisting with data understanding.
+Data visualization can be very powerful in assisting in data understanding.
+Data Visualization Methods include boxplots, histograms, scatterplots, quantile plots, heatmaps, etc.
+In this part, I will generate a scatter plot to explore the data visually.
 
-<br>
 <br>
 
 ### Context <a name="data-visualization-context"></a>
 
-<br>
+
+
 <br>
 
 ### Actions <a name="data-visualization-actions"></a>
