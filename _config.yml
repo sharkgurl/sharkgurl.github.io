@@ -10,7 +10,7 @@ plugins:
 # General Site Settings
 title: Cintia Campos, MBA, MPS, MS-CS Candidate
 description: "Hi I'm Cintia! I'm a Principal Data Analyst/Data Scientist at Fortune1 (Walmart) and a University of Colorado Boulder graduate student.  My portfolio highlights a range of interesting projects I've recently undertaken, with a strong emphasis on business impact. Please check them out below, visit my LinkedIn page, or download a copy of my Resume by using the links below!  
-StrengthsFinder: #relator #activator #maximizer #futuristic #focus #significance"
+<br> StrengthsFinder: #relator #activator #maximizer #futuristic #focus #significance"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
