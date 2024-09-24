@@ -27,7 +27,7 @@ linkedin: "https://linkedin.com/in/cintiaccampos/" # Add your linkedIn handle
 # linkedln: "https://linkedin.com/in/cintiaccampos/" # Add your linkedIn handle
 github: "https://github.com/sharkgurl"  # Add your github handle
 
-paginate: 6
+paginate: 10
 paginate_path: "/page/:num"
 
 sass:
